@@ -1,0 +1,65 @@
+body {
+    font-family: 'Minecraftia', sans-serif;
+    background-color: #87CEEB; /* Cielo azzurro */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #228B22; /* Verde prato */
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    border-bottom: 5px solid #006400; /* Verde scuro */
+}
+
+main {
+    padding: 2em;
+    background-color: #F5F5DC; /* Colore sabbia */
+}
+
+h1, h2 {
+    color: #228B22; /* Verde prato */
+    text-shadow: 2px 2px #006400; /* Ombra verde scuro */
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+    background-color: #FFF8DC; /* Colore legno chiaro */
+}
+
+th, td {
+    border: 1px solid #8B4513; /* Colore legno scuro */
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #8B4513; /* Colore legno scuro */
+    color: white;
+}
+
+footer {
+    background-color: #228B22; /* Verde prato */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    border-top: 5px solid #006400; /* Verde scuro */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Font Minecraftia */
+@font-face {
+    font-family: 'Minecraftia';
+    src: url('https://example.com/fonts/minecraftia.ttf') format('truetype');
+}
